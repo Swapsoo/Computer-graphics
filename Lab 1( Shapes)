@@ -1,0 +1,57 @@
+//Write an OPENGL app to draw primitives such as a line and unfilled rectangle, triangle ,hexagon.
+
+#include<gl/glut.h>
+
+void myInit()
+{
+    glutInitWindowSize(500,500);
+    glutInitWindowPosition(350,50);
+    glutInitDisplayMode(GLUT_RGB|GLUT_SINGLE);
+    glutCreateWindow("LABWORK 1 (Swapnil)");
+    glClearColor(1,1,1,1);
+    glClear(GL_COLOR_BUFFER_BIT);
+    glColor3d(0,0,0);
+}
+
+void Draw()
+{
+    glLineWidth(5);
+
+    glBegin(GL_LINE_LOOP);
+    glVertex2f(0.2,0.4);
+    glVertex2f(0.0,0.0);
+    glVertex2f(0.4,0.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glVertex2f(0.5,0.2);
+    glVertex2f(0.7,0.6);
+    glEnd();
+
+    glBegin(GL_LINE_LOOP);
+    glVertex2f(0.4,-0.2);
+    glVertex2f(0.1,-0.2);
+    glVertex2f(0.0,-0.4);
+    glVertex2f(0.1,-0.6);
+    glVertex2f(0.4,-0.6);
+    glVertex2f(0.5,-0.4);
+    glEnd();
+
+    glBegin(GL_LINE_LOOP);
+    glVertex2f(-0.2,0.2);
+    glVertex2f(-0.8,0.2);
+    glVertex2f(-0.8,-0.2);
+    glVertex2f(-0.2,-0.2);
+    glEnd();
+
+    glFlush();
+
+}
+int main(int argc, char *argv[])
+{
+    glutInit(&argc, argv);
+    myInit();
+    glutDisplayFunc(Draw);
+    glutMainLoop();
+    return 0;
+}
