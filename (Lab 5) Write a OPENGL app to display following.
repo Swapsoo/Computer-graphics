@@ -1,4 +1,4 @@
-// Write a OPENGL app to display following vehicle.
+// Write a OPENGL app to display following.
 #include<gl/glut.h>
 
 void myInit()
