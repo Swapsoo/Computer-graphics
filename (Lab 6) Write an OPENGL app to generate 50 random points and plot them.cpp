@@ -7,8 +7,6 @@ int pointFreq = 50;
 int WIN_WIDTH = 1024;
 int WIN_HEIGHT = 768;
 
-// LAB 6 - Drawing random 50 points
-
 void display(){
     srand(time(0));
     glClearColor(0, 0, 0, 0);
@@ -33,7 +31,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
     glutInitWindowSize(WIN_WIDTH, WIN_HEIGHT);
-    glutCreateWindow("LAB 6 - 50 RANDOM POINTS GENERATOR");
+    glutCreateWindow("Lab 6 - Swapnil Lamsal");
     glLoadIdentity();
     gluOrtho2D(0, WIN_WIDTH, 0, WIN_HEIGHT);
     glutDisplayFunc(display);
