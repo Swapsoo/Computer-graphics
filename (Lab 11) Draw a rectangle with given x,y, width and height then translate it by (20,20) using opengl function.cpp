@@ -42,7 +42,7 @@ int main(int argc, char **argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB);
     glutInitWindowSize(WIN_WIDTH, WIN_HEIGHT);
-    glutCreateWindow("LAB 12 (ABHIYAN ACHARYA) - Transformation using OpenGL");
+    glutCreateWindow("Lab 11 - Swapnil Lamsal");
     glClearColor(1, 1, 1, 1);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
