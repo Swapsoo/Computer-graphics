@@ -1,7 +1,5 @@
 #include <GL/glut.h>
 
-// LAB 4 - MOUSECLICK
-
 int WIN_WIDTH = 640;
 int WIN_HEIGHT = 480;
 int SQUARE_WIDTH = 50;
@@ -32,7 +30,7 @@ int main(int argc, char **argv){
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB);
     glutInitWindowSize(WIN_WIDTH, WIN_HEIGHT);
-    glutCreateWindow("LAB 4 - CREATE SQUARE ON CLICK");
+    glutCreateWindow("Lab 4 - Swapnil Lamsal");
     glClearColor(0, 1, 1, 1);
     glMatrixMode(GL_PROJECTION);
 
