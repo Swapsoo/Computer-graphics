@@ -5,7 +5,7 @@ using namespace std;
 int WIN_WIDTH = 800;
 int WIN_HEIGHT = 600;
 
-// LAB 7 - DRAWING A LINE WITH DIRECT METHOD
+
 void drawLine() {
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3d(0, 0, 0);
@@ -40,7 +40,7 @@ void drawLine() {
 void myInit() {
     glutInitWindowSize(WIN_WIDTH, WIN_HEIGHT);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutCreateWindow("LAB 7 (ABHIYAN ACHARYA) - Drawing a line using Direct Method");
+    glutCreateWindow("Lab 7 - Swapnil Lamsal");
     glClearColor(1, 1, 1, 1);
     glClear(GL_COLOR_BUFFER_BIT);
     glMatrixMode(GL_PROJECTION);
