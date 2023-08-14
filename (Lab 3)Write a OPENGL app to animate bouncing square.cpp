@@ -44,7 +44,7 @@ int main(int argc, char** argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-    glutCreateWindow("Lab 3 - Animating a Bouncing Square");
+    glutCreateWindow("Lab 3 - Swapnil Lamsal");
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluOrtho2D(-WINDOW_WIDTH, WINDOW_WIDTH, -WINDOW_HEIGHT, WINDOW_HEIGHT);
