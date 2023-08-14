@@ -52,7 +52,7 @@ void drawCircle() {
 void myInit() {
     glutInitWindowSize(WIN_WIDTH, WIN_HEIGHT);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutCreateWindow("Lab 10 - Swapnil Lamsal");
+    glutCreateWindow("Lab 9 - Swapnil Lamsal");
     glClearColor(1, 1, 1, 1);
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3d(0, 0, 0);
