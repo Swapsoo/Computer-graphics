@@ -48,7 +48,7 @@ int main(int argc, char** argv){
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE);
     glutInitWindowSize(600, 600);
-    glutCreateWindow("Lab 2 - Creation of Basic Shapes on Midpoints");
+    glutCreateWindow("Lab 2 - Swapnil Lamsal");
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluOrtho2D(-500, 500, -500, 500);
