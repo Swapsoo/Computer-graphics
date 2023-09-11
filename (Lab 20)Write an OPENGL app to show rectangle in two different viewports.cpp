@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(1024, 768);
-    glutCreateWindow("LAB 19 Swapnil Lamsal");
+    glutCreateWindow("LAB 20 Swapnil Lamsal");
 
     glutDisplayFunc(displayViewport1);
     glutDisplayFunc(displayViewport2);
